@@ -8,3 +8,7 @@ img{max-width:100%}button{cursor:pointer}
 /* Ajuste vertical del logo en la barra superior */
 header.fixed > div > div > a > img { translate: 0 4px; }
 
+
+/* Baja el logo central de la portada para que quede fuera de la barra fija. */
+.hero-main-logo{transform:translateY(68px)!important;margin-bottom:84px!important}
+@media(max-width:767px){.hero-main-logo{transform:translateY(64px)!important;margin-bottom:80px!important}}
