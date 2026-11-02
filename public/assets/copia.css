@@ -4,3 +4,7 @@
 dialog.copia-notice::backdrop{background:#000b}dialog.copia-notice button{background:#f03;color:white;border:0;padding:10px 20px;border-radius:8px;margin-top:16px;cursor:pointer}
 img{max-width:100%}button{cursor:pointer}
 [hidden]{display:none!important}
+
+/* Ajuste vertical del logo en la barra superior */
+header.fixed > div > div > a > img { translate: 0 4px; }
+
