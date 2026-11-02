@@ -1,0 +1,6 @@
+/* Adaptaciones para copia estática */
+.copia-mobile{display:flex;flex-direction:column;gap:8px;padding:16px;background:#101010;border-top:1px solid #333}.copia-mobile a{padding:10px;color:white;font-weight:700}.copia-mobile[hidden]{display:none}
+.copia-notice{background:#171717;color:#eee;border:1px solid #c22;border-radius:12px;padding:20px;max-width:600px;margin:30px auto;font-family:Arial,sans-serif}
+dialog.copia-notice::backdrop{background:#000b}dialog.copia-notice button{background:#f03;color:white;border:0;padding:10px 20px;border-radius:8px;margin-top:16px;cursor:pointer}
+img{max-width:100%}button{cursor:pointer}
+[hidden]{display:none!important}
